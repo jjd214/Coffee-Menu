@@ -1,0 +1,136 @@
+body {
+    font-family: 'VT323', monospace;
+    background-color: #2e2b28;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #3e342f;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+}
+
+#home .slogan {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay color */
+    z-index: 1;
+}
+
+.slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white; /* Text color */
+    text-align: center; 
+}
+
+#about, #menus, #developers {
+    padding: 60px 0;
+}
+
+#about .card {
+    background-color: #3e342f;
+    border: none;
+}
+
+#about p, #developers .card p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#menus .card {
+    background-color: #3e342f;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#menus .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#menus .card-title, #menus .card-text {
+    color: #fff;
+}
+
+#developers .card {
+    background-color: #3e342f;
+    border: none;
+}
+
+footer {
+    background: #3e342f;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-facebook-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-facebook-links a {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-facebook-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-google-map {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    #home {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+    }
+
+    #home .slogan {
+        font-size: 1rem;
+    }
+
+    #menus .card-img-top {
+        height: 150px;
+    }
+    #home .slogan h1{
+        font-size: 20px; 
+    }
+    #home .slogan p{
+        font-size: 1px; 
+    }
+}
